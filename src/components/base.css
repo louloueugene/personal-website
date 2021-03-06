@@ -36,7 +36,9 @@ a {
 }
 
 .blogAside {
-  background-color: red;
+  padding: 10px;
+  background-color: #4c95c644;
+  border-radius: 5px;
 }
 
 .wrapper {
