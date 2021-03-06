@@ -44,6 +44,18 @@ a {
 .wrapper {
 }
 
+.embedVideo-container {
+  width: 780px;
+  height: 440px;
+}
+
+@media only screen and (max-width: 780px) {
+  .embedVideo-container {
+    width: 100%;
+    height: 300px;
+  }
+}
+
 blockquote {
   position: relative;
   padding: 1rem 1.2rem;

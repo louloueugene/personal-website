@@ -56,7 +56,8 @@ module.exports = {
           {
             resolve: "gatsby-remark-embed-video",
             options: {
-              width: 780,
+              width: "100%",
+              height: "100%",
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
               noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
               loadingStrategy: "lazy", //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
